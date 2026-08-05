@@ -1,3 +1,6 @@
+# Fork additions
+- Added build output for adressevaelger.iife.js in ES2015 format
+
 # Adressevælger
 
 A UI component for implementing Adressevælger search in Javascript applications.
@@ -8,6 +11,7 @@ The ready-to-use files are available in the dist/ folder in the repository:
 
 adressevaelger.css
 adressevaelger.iife.js
+adressevaelger.es2015.iife.js (transpiled to ES2015, for older browsers)
 
 You can use them directly in your HTML without any build tools.
 

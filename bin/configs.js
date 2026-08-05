@@ -19,6 +19,17 @@ export const ctxIIFE = await esbuild.context({
   keepNames: true,
 });
 
+export const ctxIIFEes2015 = await esbuild.context({
+  entryPoints: ["index.js"],
+  bundle: true,
+  outfile: "dist/adressevaelger.es2015.iife.js",
+  globalName: "adressevaelger",
+  format: "iife",
+  target: "es2015",
+  minify: true,
+  keepNames: true,
+});
+
 export const ctxCJS = await esbuild.context({
   entryPoints: ["index.js"],
   bundle: true,

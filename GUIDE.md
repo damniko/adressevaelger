@@ -22,6 +22,7 @@ Or download it as a ZIP and extract it into your project.
 You will typically need:
 
 adressevaelger.iife.js (for direct browser usage)
+adressevaelger.es2015.iife.js (for direct browser usage, transpiled to ES2015)
 adressevaelger.esm.js (for ES module usage)
 adressevaelger.css
 
